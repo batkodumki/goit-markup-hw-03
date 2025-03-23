@@ -245,7 +245,7 @@ button:hover, button:focus {
   margin: 0;
   padding: 0;
 }
-.advantage-list{
+.advantages-list{
   list-style: none;
   display: flex;
   gap: 24px;
