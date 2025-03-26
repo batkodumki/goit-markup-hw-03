@@ -248,6 +248,9 @@ button:hover, button:focus {
   flex-direction: column;
   align-items: flex-start;
 }
+.footer .a{
+  display: inline-block;
+}
 .nav-list{
   list-style: none;
   display: flex;   
