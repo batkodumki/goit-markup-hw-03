@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6{
   margin: 0;
   padding: 0;
 }
+
 ul{
   list-style: none;
 }
@@ -52,6 +53,7 @@ button:hover, button:focus {
   background-color: #404BBF;
 }
 .nav-link {
+  display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -111,6 +113,9 @@ button:hover, button:focus {
 .footer .container {
   text-align: left;
   padding: 0 15px;
+  display: block;
+}
+.footer .a{
   display: inline-block;
 }
 .footer-text {
@@ -244,11 +249,6 @@ button:hover, button:focus {
 .footer-web{
    color: #f4f4fd;
 }
-.footer .container{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
 .nav-list{
   list-style: none;
   display: flex;   
@@ -342,4 +342,7 @@ button:hover, button:focus {
 img {
   display: block;
   width: 100%;
+}
+.footer-text{
+  max-width: 350px;
 }
