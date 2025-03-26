@@ -111,6 +111,7 @@ button:hover, button:focus {
 .footer .container {
   text-align: left;
   padding: 0 15px;
+  display: inline-block;
 }
 .footer-text {
   color: #F4F4FD;
@@ -247,9 +248,6 @@ button:hover, button:focus {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-}
-.footer .a{
-  display: inline-block;
 }
 .nav-list{
   list-style: none;
