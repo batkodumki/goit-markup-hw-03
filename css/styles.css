@@ -5,6 +5,8 @@ h1, h2, h3, h4, h5, h6{
 
 ul{
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 p{
   margin: 0;
@@ -97,11 +99,11 @@ button:hover, button:focus {
   font-weight: 700;
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 496px; 
+  max-width: 496px;
   margin: 0 auto;
 }
 .member-info {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 .member-role {
   text-align: center;
@@ -120,9 +122,25 @@ button:hover, button:focus {
 }
 .footer-text {
   color: #F4F4FD;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  size: 16;
+  max-width: 264px;
+  size: 16px;
+}
+.footer-logo{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-web{
+  color: #f4f4fd;
 }
 .cta-button {
   font-size: 16px;
@@ -163,13 +181,13 @@ button:hover, button:focus {
   letter-spacing: 0.02em;
   font-weight: 400;
   font-size: 16px;
+  text-align: left;
 }
 .team-member{
   background-color: #FFFFFF;
   flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
-  gap: 32px;
-  padding-bottom: 32px;
+  gap: 24px;
 }
 .section-title{
   font-size: 36px;
@@ -198,6 +216,7 @@ button:hover, button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding: ;
 }
 .portfolio-title{
   font-weight: 500;
@@ -212,18 +231,6 @@ button:hover, button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.footer-logo{
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  display: inline-block;
-  margin-bottom: 16px;
-}
 .logo{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -233,7 +240,6 @@ button:hover, button:focus {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-right: 76px;
 }
 .header-logo{
   color: #2E2F42;
@@ -244,10 +250,6 @@ button:hover, button:focus {
 .team{
   background-color:  #F4F4FD;
   padding: 120px 0;
-  gap: 24px;
-}
-.footer-web{
-   color: #f4f4fd;
 }
 .nav-list{
   list-style: none;
@@ -342,7 +344,4 @@ button:hover, button:focus {
 img {
   display: block;
   width: 100%;
-}
-.footer-text{
-  max-width: 350px;
 }
