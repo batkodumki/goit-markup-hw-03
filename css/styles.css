@@ -21,7 +21,6 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 76px;
 }
 .head .container {
   display: flex;
@@ -40,6 +39,7 @@ body {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin:0;
 }
 button {
   background-color: #4D5AE5;
@@ -198,7 +198,7 @@ button:hover, button:focus {
   text-transform: capitalize;
   color: #2e2f42;
   border: 2px solid transparent;
-  margin-top: 120px;
+/*  margin-top: 120px; */
   margin-bottom: 72px;
 }
 .section {
@@ -243,6 +243,7 @@ button:hover, button:focus {
   text-decoration: none;
   margin-right: 76px;
 }
+
 .header-logo{
   color: #2E2F42;
 }
